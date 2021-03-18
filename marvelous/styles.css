@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- LOGIN STYLES ------------------------------------------------------ */
+.logo-div{
+    position: absolute;
+width: 123px;
+height: 52px;
+left: 515px;
+top: 48px;
+}
+
+.login-div{
+    position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 362px;
+    top: 133px;
+    background: #FFFFFF;
+    border: 2px solid rgba(180, 32, 28, 0.92);
+    box-shadow: 2px 2px 6px rgba(180, 32, 28, 0.17);
+    border-radius: 16px;
+}
+
+.login-text-div{
+    position: relative;
+    margin-top: 30px;
+   
+}
+
+.login-text{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Avenir', 'Times New Roman', Times, serif;
+    margin-top: 90;
+}
+
+.text-div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pace-setter-text, .signup-span{
+    font-size: 17px;
+    font-family: 'Avenir', 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color:  rgba(0, 0, 0, 0.49);
+    
+}
+
+.signup-span{
+    color:  rgba(180, 32, 28, 0.92);
+    font-weight: 900;
+    text-align: center;
+}
+
+.email-div{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    background-color:rgba(196, 196, 196, 0.21);
+    width: 338px;
+    height: 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.email-field, .password-field{
+    font-family: 'Avenir', 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    background:transparent;
+    border-radius: 4px;
+    border-style: none;
+    padding-left: 20px; 
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.eye-icon, .mail-icon{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    left: 300px;
+}
+
+.password-div{
+    position: absolute;
+    left: 40px;
+    top: 210px;
+    background-color:rgba(196, 196, 196, 0.21);
+    width: 338px;
+    height: 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.checkbox-div{
+    position: absolute;
+    left: 40px;
+    top: 275px;  
+}
+
+.checkbox-field{
+    visibility: hidden;
+}
+
+.checkbox-span{
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    top: 3px;
+    background: rgba(196, 196, 196, 0.21);
+    border-radius: 4px;
+    border-style: none;
+}
+
+.remember-text{
+   margin-left: 20px;
+   color: rgba(180, 32, 28, 0.92);
+   font-family: 'Avenir', 'Times New Roman', Times, serif;
+   font-size: 16px;
+   font-weight: 800;
+   letter-spacing: -0.03em;
+}
+
+.login-button-div{
+    position: absolute;
+    left: 140px;
+    top: 320px;
+}
+
+.login-button{
+    background-color: rgba(180, 32, 28, 0.92); 
+    width: 152px;
+    height: 48px;
+    font-family: 'Avenir', 'Times New Roman', Times, serif; 
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    box-shadow: 2.5px 2.5px rgba(185, 174, 174, 0.7);
+
+}
+
+/* --------------------------------------------------------- DASHBOARD STYLES ------------------------------------------- */
+
+.dashboard-body{
+    background-color: #F6F6F7;
+}
+
+.map-image{
+    position: absolute;
+    width: 490px;
+    height: 312px;
+    left: 227px;
+    top: 132px;  
+    background: url(./assets/map.png);
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.shipment-div{
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    left: 250px;
+    top: 20px;
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.shipment-text{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 15px;
+    top: 15px;
+    font-family: 'Avenir', 'Times New Roman',  'serif';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.47);
+}
+
+.chevron-dropdown-div{
+    border-left: 1px solid #C4C4C4;
+    height: 48px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevron-dropdown-image{
+    margin-left: 20px;
+}
+
+.services-text{
+    font-family: 'Avenir';
+    position: absolute;
+    left: 227px;
+    top: 464px;
+    font-weight: 800;
+    font-size: 16;
+    display: flexbox;
+    align-items: center;
+}
+
+.calculate-div{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 227px;
+    top: 504px;
+    background: rgba(180, 32, 28, 0.1);
+    border-radius: 8px
+}
+
+.calculate-price-text{
+    position: absolute;
+    left: 15px;
+    top: 19px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.calculate-price-content{
+    position: absolute;
+    width: 215px;
+    height: 54px;
+    left: 15px;
+    top: 46px; 
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.calculator, .PlusCircle{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 210px;
+    top: 15px;
+
+}
+
+.create-shipment-div{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 486px;
+    top: 504px;
+    background: rgba(227, 139, 47, 0.1);
+    border-radius: 8px;
+}
+
+
+.tracking-parent-div{
+    position: absolute;
+    width: 339px;
+    height: 520px;
+    left: 765px;
+    top: 132px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.tracking-history-text{
+    position: absolute;
+    height: 22px;
+    left: 22px;
+    top: 33px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */  
+    display: flex;
+    align-items: center; 
+    color: #000000;
+}
+
+.tracking-number-div{
+    position: absolute;
+    width: 295px;
+    height: 48px;
+    left: 40px;
+    top: 130px;
+    background-color: ;
+}
+
+.tracking-number{
+    position: absolute;
+    width: 208px;
+    height: 48px;
+    left: -20px;
+    top: -40px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    background: #F6F6F7;
+    border:none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.42);
+
+}
+
+.track-button{
+    position: absolute;
+    width: 87px;
+    height: 48px;
+    left: 160px;
+    top: -40px;
+    background: #000000;
+    border-radius: 0px 8px 8px 0px;
+    border:none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sent-shipment{
+    position: absolute;
+    width: 295px;
+    height: 79px;
+    left: 20px;
+    top: 160px;
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.out-img{
+    position: absolute;
+    width: 24px;
+    height: 32px;
+    left: 24px;
+    top: 25px;
+}
+
+.shipment-id{
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 63px;
+    top: 20px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+}
+
+.shipment-status{
+    position: absolute;
+    width: 178px;
+    height: 19px;
+    left: 63px;
+    top: 41px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.more-vertical-img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 259px;
+    top: 25px;
+}
+
+.shipment-enroute{
+    position: absolute;
+    width: 295px;
+    height: 79px;
+    left: 20px;
+    top: 250px;
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.out-2-img{
+    position: absolute;
+    width: 24px;
+    height: 32px;
+    left: 24px;
+    top: 25px;
+}
+
+.shipment-id-2{
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 63px;
+    top: 20px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.shipment-status-2{
+    position: absolute;
+    width: 184px;
+    height: 19px;
+    left: 63px;
+    top: 41px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;   
+    opacity: 0.7; 
+}
+
+.more-vertical-img-2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 259px;
+    top: 20px;  
+}
+
+.shipment-waiting{
+    position: absolute;
+    width: 295px;
+    height: 79px;
+    left: 20px;
+    top: 340px;
+
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.watch-img{
+    position: absolute;
+    left: 24px;
+    right: 0%;
+    top: 30px;
+    bottom: 9.38%;
+
+}
+
+.shipment-status-3{
+    position: absolute;
+    width: 196px;
+    height: 19px;
+    left: 63px;
+    top: 41px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.see-more-text{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 134px;
+    top: 450px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(180, 32, 28, 0.92); 
+}
