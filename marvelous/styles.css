@@ -542,3 +542,392 @@ top: 48px;
     
     color: rgba(180, 32, 28, 0.92); 
 }
+/* ------------------------------- SERVICES STYLES ----------------------------- */
+
+.services-body{
+    background: #E5E5E5;
+}
+
+/* .services-container{
+    position: absolute;
+    width: 378px;
+    height: 462px;
+    left: 253px;
+    top: 152px; 
+} */
+
+.services-calculate-contianer{
+    position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 228px;
+    top: 133px;
+    background: #FFFFFF;
+    border: 2px solid rgba(180, 32, 28, 0.92);
+    box-shadow: 2px 2px 6px rgba(180, 32, 28, 0.17);
+    border-radius: 16px;
+}
+
+.calculate-text{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 25px;
+    top: 19px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;  
+}
+
+.destination{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 25px;
+    top: 64px;
+}
+
+.destination-text{
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.calculate-from{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 0;
+    top: 35px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.from-group{
+    position: absolute;
+    width: 155px;
+    height: 24px;
+    left: 10px;
+    top: 12px;
+}
+
+.from-text{
+    position: absolute;
+    width: 41px;
+    height: 23px;
+    /* left: 13px;
+    top: 10px; */
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #A0A0A0;
+     
+}
+
+.chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 141px;
+    top: 12px;
+}
+
+.calculate-to{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 200px;
+    top: 35px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.to-group{
+    position: absolute;
+    width: 155px;
+    height: 24px;
+    left: 10px;
+    top: 12px;
+}
+
+.to-text{
+    position: absolute;
+    width: 18px;
+    height: 23px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.packaging{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 0;
+    top: 100px;
+}
+
+.select-cargo{
+    position: absolute;
+    width: 378px;
+    height: 48px;
+    left: 0;
+    top: 25px;
+
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.packaging-text{
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+
+
+}
+
+.select-cargo-text{
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 10px;
+    top: 13px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.package-chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 350px;
+    top: 21px;
+}
+
+.shipping{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 0;
+    top: 190px;
+}
+
+.select-shipping{
+    position: absolute;
+    width: 378px;
+    height: 48px;
+    left: 0;
+    top: 25px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.shipping-text{
+    position: absolute;
+    width: 110px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+
+
+}
+
+.select-shipping-text{
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 10px;
+    top: 13px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.shipping-chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 350px;
+    top: 21px;
+}
+
+.packages-group{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 0px;
+    top: 280px;
+}
+
+.no-of-packages-text{
+    position: absolute;
+    width: 162px;
+    height: 19px;
+    /* left: 253px;
+    top: 470px; */
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.package-number{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 0;
+    top: 25px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.select-number{
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    left: 10px;
+    top: 13px; 
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #A0A0A0;
+}
+
+.package-number-chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 150px;
+    top: 25px;
+}
+
+.weight-of-packages-text{
+    position: absolute;
+    width: 129px;
+    height: 19px;
+    left: 200px;
+    top: 0px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.to-div{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 200px;
+    top: 25px;
+
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.calculate-button-div{
+    position: absolute;
+    width: 152px;
+    height: 48px;
+    left: 135px;
+    top: 433px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.19));
+}
+
+.calculate-button{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 152px;
+    background: #B4201C;
+    border-radius: 8px;
+    border:none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
