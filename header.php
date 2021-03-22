@@ -28,6 +28,6 @@
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/chartist.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/app.css">
   </head>
-  <body data-col="2-columns" class=" 2-columns ">
+  <body data-col="2-columns" class=" 2-columns bg-white ">
     <!-- ////////////////////////////////////////////////////////////////////////////-->
     <div class="wrapper">

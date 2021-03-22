@@ -1922,11 +1922,11 @@ pre code {
 .table th, .table td {
   padding : 0.75rem;
   vertical-align : top;
-  border-top : 1px solid #DEE2E6;
+  /*border-top : 1px solid #DEE2E6;*/
 }
 .table thead th {
   vertical-align : bottom;
-  border-bottom : 2px solid #DEE2E6;
+  /*border-bottom : 2px solid #DEE2E6;*/
 }
 .table tbody + tbody {
   border-top : 2px solid #DEE2E6;
@@ -6638,7 +6638,8 @@ a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-prima
 }
 
 .bg-secondary {
-  background-color : #868E96 !important;
+  background-color : #F3F3F3;
+  /*#868E96 !important;*/
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus, button.bg-secondary:hover, button.bg-secondary:focus {
@@ -11141,7 +11142,8 @@ input:focus ~ .bg-black {
 }
 
 .bg-secondary {
-  background-color : #868E96 !important;
+  background-color : #F3F3F3;
+  /*#868E96 !important;*/
 }
 .bg-secondary .card-header, .bg-secondary .card-footer {
   background-color : transparent;
@@ -40062,7 +40064,8 @@ button:hover {
 }
 
 .card {
-  border : 0;
+  /*border : 0;*/
+
   margin : 15px 0;
   -webkit-box-shadow : 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.06);
           box-shadow : 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.06);
@@ -40093,7 +40096,7 @@ button:hover {
   padding : 1rem 1.5rem 1.5rem;
 }
 .card .card-bordered {
-  border : 1px solid rgba(0, 0, 0, 0.06);
+  border :  solid 3px rgba(0, 0, 0, 0.06);
 }
 .card.card-transparent {
   background-color : transparent !important;
