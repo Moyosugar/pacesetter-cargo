@@ -319,14 +319,13 @@ body{
     height: 48px;
     left: 40px;
     top: 130px;
-    background-color: ;
 }
 
 .tracking-number{
     position: absolute;
     width: 208px;
     height: 48px;
-    left: -20px;
+    left: -15px; 
     top: -40px;
     font-family: Avenir;
     font-style: normal;
@@ -336,7 +335,8 @@ body{
 /* identical to box height */
     background: #F6F6F7;
     border:none;
-    text-align: center;
+    text-align: left;
+    padding-left: 8px;
     color: rgba(0, 0, 0, 0.42);
 
 }
@@ -2057,4 +2057,91 @@ body{
 
     background: #FFFFFF;
     border-radius: 8px;
+}
+
+/* ------------------------------ SERVICES STYLE ------------------------ */
+
+.services{
+    position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 227px;
+    top: 132px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.calculate-price-div{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 227px;
+    top: 172px;
+    
+    background: rgba(180, 32, 28, 0.1);
+    border-radius: 8px;
+}
+
+.calculate-price{
+    position: absolute;
+
+    height: 19px;
+    left: 15px;
+    top: 19px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.calculator-img{
+    position: absolute;
+    left: 81.25%;
+    right: -56.25%;
+    top: 12.5%;
+    bottom: 25%;
+}
+
+.calculate-price-text-block{
+    position: absolute;
+    width: 215px;
+    height: 54px;
+    left: 15px;
+    top: 46px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.services-create-shipment{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 486px;
+    top: 172px;
+    
+    background: rgba(227, 139, 47, 0.1);
+    border-radius: 8px;   
 }
