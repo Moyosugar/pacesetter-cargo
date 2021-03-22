@@ -1562,6 +1562,14 @@ body{
     border-radius: 8px 0px 0px 8px;
 }
 
+.more-vertical{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 843px;
+    top: 40px;
+    }
+
 .tracking-number-text{
     position: absolute;
     width: 163px;
