@@ -1928,3 +1928,133 @@ body{
     left: 61px;
     top: 57px;
 }
+
+.arrival-no-detail{
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 319px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-to-detail{
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    left: 449px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-from-detail{
+    position: absolute;
+    width: 30px;
+    height: 22px;
+    left: 512px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.arrival-date-detail{
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 590px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-price-detail{
+    position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 733px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.82);
+}
+
+.shipped-div{
+    position: absolute;
+    width: 876px;
+    height: 100px;
+    left: 227px;
+    top: 357px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.shipped-img{
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 61px;
+    top: 59px;
+    
+}
+
+.waiting-div{
+    position: absolute;
+    width: 876px;
+    height: 100px;
+    left: 227px;
+    top: 478px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
