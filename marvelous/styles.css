@@ -1,0 +1,2155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- LOGIN STYLES ------------------------------------------------------ */
+.logo-div{
+    position: absolute;
+width: 123px;
+height: 52px;
+left: 515px;
+top: 48px;
+}
+
+.login-div{
+    position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 362px;
+    top: 133px;
+    background: #FFFFFF;
+    border: 2px solid rgba(180, 32, 28, 0.92);
+    box-shadow: 2px 2px 6px rgba(180, 32, 28, 0.17);
+    border-radius: 16px;
+}
+
+.login-text-div{
+    position: relative;
+    margin-top: 30px;
+   
+}
+
+.login-text{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Avenir', 'Times New Roman', Times, serif;
+    margin-top: 90;
+}
+
+.text-div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pace-setter-text, .signup-span{
+    font-size: 17px;
+    font-family: 'Avenir', 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color:  rgba(0, 0, 0, 0.49);
+    
+}
+
+.signup-span{
+    color:  rgba(180, 32, 28, 0.92);
+    font-weight: 900;
+    text-align: center;
+}
+
+.email-div{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    background-color:rgba(196, 196, 196, 0.21);
+    width: 338px;
+    height: 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.email-field, .password-field{
+    font-family: 'Avenir', 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    background:transparent;
+    border-radius: 4px;
+    border-style: none;
+    padding-left: 20px; 
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.eye-icon, .mail-icon{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    left: 300px;
+}
+
+.password-div{
+    position: absolute;
+    left: 40px;
+    top: 210px;
+    background-color:rgba(196, 196, 196, 0.21);
+    width: 338px;
+    height: 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.checkbox-div{
+    position: absolute;
+    left: 40px;
+    top: 275px;  
+}
+
+.checkbox-field{
+    visibility: hidden;
+}
+
+.checkbox-span{
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    top: 3px;
+    background: rgba(196, 196, 196, 0.21);
+    border-radius: 4px;
+    border-style: none;
+}
+
+.remember-text{
+   margin-left: 20px;
+   color: rgba(180, 32, 28, 0.92);
+   font-family: 'Avenir', 'Times New Roman', Times, serif;
+   font-size: 16px;
+   font-weight: 800;
+   letter-spacing: -0.03em;
+}
+
+.login-button-div{
+    position: absolute;
+    left: 140px;
+    top: 320px;
+}
+
+.login-button{
+    background-color: rgba(180, 32, 28, 0.92); 
+    width: 152px;
+    height: 48px;
+    font-family: 'Avenir', 'Times New Roman', Times, serif; 
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    box-shadow: 2.5px 2.5px rgba(185, 174, 174, 0.7);
+
+}
+
+/* --------------------------------------------------------- DASHBOARD STYLES ------------------------------------------- */
+
+body{
+    background-color: #F6F6F7;
+}
+
+.map-image{
+    position: absolute;
+    width: 490px;
+    height: 312px;
+    left: 227px;
+    top: 132px;  
+    background: url(./assets/map.png);
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.shipment-div{
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    left: 250px;
+    top: 20px;
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.shipment-text{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 15px;
+    top: 15px;
+    font-family: 'Avenir', 'Times New Roman',  'serif';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.47);
+}
+
+.chevron-dropdown-div{
+    border-left: 1px solid #C4C4C4;
+    height: 48px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevron-dropdown-image{
+    margin-left: 20px;
+}
+
+.services-text{
+    font-family: 'Avenir';
+    position: absolute;
+    left: 227px;
+    top: 464px;
+    font-weight: 800;
+    font-size: 16;
+    display: flexbox;
+    align-items: center;
+}
+
+.calculate-div{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 227px;
+    top: 504px;
+    background: rgba(180, 32, 28, 0.1);
+    border-radius: 8px
+}
+
+.calculate-price-text{
+    position: absolute;
+    left: 15px;
+    top: 19px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.calculate-price-content{
+    position: absolute;
+    width: 215px;
+    height: 54px;
+    left: 15px;
+    top: 46px; 
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.calculator, .PlusCircle{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 210px;
+    top: 15px;
+
+}
+
+.create-shipment-div{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 486px;
+    top: 504px;
+    background: rgba(227, 139, 47, 0.1);
+    border-radius: 8px;
+}
+
+
+.tracking-parent-div{
+    position: absolute;
+    width: 339px;
+    height: 520px;
+    left: 765px;
+    top: 132px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.tracking-history-text{
+    position: absolute;
+    height: 22px;
+    left: 22px;
+    top: 33px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */  
+    display: flex;
+    align-items: center; 
+    color: #000000;
+}
+
+.tracking-number-div{
+    position: absolute;
+    width: 295px;
+    height: 48px;
+    left: 40px;
+    top: 130px;
+}
+
+.tracking-number{
+    position: absolute;
+    width: 208px;
+    height: 48px;
+    left: -15px; 
+    top: -40px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    background: #F6F6F7;
+    border:none;
+    text-align: left;
+    padding-left: 8px;
+    color: rgba(0, 0, 0, 0.42);
+
+}
+
+.track-button{
+    position: absolute;
+    width: 87px;
+    height: 48px;
+    left: 160px;
+    top: -40px;
+    background: #000000;
+    border-radius: 0px 8px 8px 0px;
+    border:none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sent-shipment{
+    position: absolute;
+    width: 295px;
+    height: 79px;
+    left: 20px;
+    top: 160px;
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.out-img{
+    position: absolute;
+    width: 24px;
+    height: 32px;
+    left: 24px;
+    top: 25px;
+}
+
+.shipment-id{
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 63px;
+    top: 20px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+}
+
+.shipment-status{
+    position: absolute;
+    width: 178px;
+    height: 19px;
+    left: 63px;
+    top: 41px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.more-vertical-img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 259px;
+    top: 25px;
+}
+
+.shipment-enroute{
+    position: absolute;
+    width: 295px;
+    height: 79px;
+    left: 20px;
+    top: 250px;
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.out-2-img{
+    position: absolute;
+    width: 24px;
+    height: 32px;
+    left: 24px;
+    top: 25px;
+}
+
+.shipment-id-2{
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 63px;
+    top: 20px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.shipment-status-2{
+    position: absolute;
+    width: 184px;
+    height: 19px;
+    left: 63px;
+    top: 41px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;   
+    opacity: 0.7; 
+}
+
+.more-vertical-img-2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 259px;
+    top: 20px;  
+}
+
+.shipment-waiting{
+    position: absolute;
+    width: 295px;
+    height: 79px;
+    left: 20px;
+    top: 340px;
+
+    background: #F6F6F7;
+    border-radius: 8px;
+}
+
+.watch-img{
+    position: absolute;
+    left: 24px;
+    right: 0%;
+    top: 30px;
+    bottom: 9.38%;
+
+}
+
+.shipment-status-3{
+    position: absolute;
+    width: 196px;
+    height: 19px;
+    left: 63px;
+    top: 41px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.see-more-text{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 134px;
+    top: 450px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(180, 32, 28, 0.92); 
+}
+/* ------------------------------- SERVICES STYLES ----------------------------- */
+
+.services-body{
+    background: #E5E5E5;
+}
+
+/* .services-container{
+    position: absolute;
+    width: 378px;
+    height: 462px;
+    left: 253px;
+    top: 152px; 
+} */
+
+.services-calculate-contianer{
+    position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 228px;
+    top: 133px;
+    background: #FFFFFF;
+    border: 2px solid rgba(180, 32, 28, 0.92);
+    box-shadow: 2px 2px 6px rgba(180, 32, 28, 0.17);
+    border-radius: 16px;
+}
+
+.calculate-text{
+    position: absolute;
+    height: 30px;
+    left: 25px;
+    top: 19px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;  
+}
+
+.destination{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 25px;
+    top: 64px;
+}
+
+.destination-text{
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.calculate-from{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 0;
+    top: 35px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.from-group{
+    position: absolute;
+    width: 155px;
+    height: 24px;
+    left: 10px;
+    top: 12px;
+}
+
+.from-text{
+    position: absolute;
+    width: 41px;
+    height: 23px;
+    /* left: 13px;
+    top: 10px; */
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #A0A0A0;
+     
+}
+
+.chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 141px;
+    top: 12px;
+}
+
+.calculate-to{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 200px;
+    top: 35px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.to-group{
+    position: absolute;
+    width: 155px;
+    height: 24px;
+    left: 10px;
+    top: 12px;
+}
+
+.to-text{
+    position: absolute;
+    width: 18px;
+    height: 23px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.packaging{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 0;
+    top: 100px;
+}
+
+.select-cargo{
+    position: absolute;
+    width: 378px;
+    height: 48px;
+    left: 0;
+    top: 25px;
+
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.packaging-text{
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+
+
+}
+
+.select-cargo-text{
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 10px;
+    top: 13px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.package-chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 350px;
+    top: 21px;
+}
+
+.shipping{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 0;
+    top: 190px;
+}
+
+.select-shipping{
+    position: absolute;
+    width: 378px;
+    height: 48px;
+    left: 0;
+    top: 25px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.shipping-text{
+    position: absolute;
+    width: 110px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+
+
+}
+
+.select-shipping-text{
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 10px;
+    top: 13px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.shipping-chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 350px;
+    top: 21px;
+}
+
+.packages-group{
+    position: absolute;
+    width: 378px;
+    height: 76px;
+    left: 0px;
+    top: 280px;
+}
+
+.no-of-packages-text{
+    position: absolute;
+    width: 162px;
+    height: 19px;
+    /* left: 253px;
+    top: 470px; */
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.package-number{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 0;
+    top: 25px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.select-number{
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    left: 10px;
+    top: 13px; 
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #A0A0A0;
+}
+
+.package-number-chevron-image{
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    left: 150px;
+    top: 25px;
+}
+
+.weight-of-packages-text{
+    position: absolute;
+    width: 129px;
+    height: 19px;
+    left: 200px;
+    top: 0px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.to-div{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 200px;
+    top: 25px;
+
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.calculate-button-div{
+    position: absolute;
+    width: 152px;
+    height: 48px;
+    left: 135px;
+    top: 433px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.19));
+}
+
+.calculate-button{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 152px;
+    background: #B4201C;
+    border-radius: 8px;
+    border:none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.cargo-shipment-price-div{
+    position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 676px;
+    top: 133px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.cargo-shipment-price-text{
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 20px;
+    top: 25px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */ 
+    text-align: center;
+    color: #000000;
+}
+
+.calculated-text{
+    position: absolute;
+    width: 388px;
+    height: 23px;
+    left: 20px;
+    top: 57px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.49);    
+}
+
+.from-city-text{
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 20px;
+    top: 108px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: rgba(180, 32, 28, 0.92);
+}
+
+.to-city-text{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 298px;
+    top: 108px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: right;
+    color: #E38B2F; 
+}
+
+.cargo-text{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 20px;
+    top: 150px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+.weight-text{
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    left: 263px;
+    top: 150px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    color: #000000;
+    
+}
+
+.speed-text{
+    position: absolute;
+    width: 240px;
+    height: 27px;
+    left: 20px;
+    top: 188px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000; 
+}
+
+.price-summary{
+    position: absolute;
+    width: 146px;
+    height: 25px;
+    left: 141px;
+    top: 270px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.location-text{
+    position: absolute;
+    width: 88px;
+    height: 23px;
+    left: 20px;
+    top: 316px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.49);   
+}
+
+.amount-50{
+    position: absolute;
+    width: 76px;
+    height: 23px;
+    left: 332px;
+    top: 316px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(0, 0, 0, 0.82);
+    
+}
+
+.price-weight-text{
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 20px;
+    top: 350px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.amount-4{
+    position: absolute;
+    height: 23px;
+    left: 320px;
+    top: 350px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;  
+    color: rgba(0, 0, 0, 0.82);
+}
+
+.shipping-weight-text{
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 20px;
+    top: 384px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+    
+}
+
+.amount-1{
+    position: absolute;
+    height: 23px;
+    left: 320px;
+    top: 384px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(0, 0, 0, 0.82);   
+}
+
+.total-amount-text{
+    position: absolute;
+    width: 53px;
+    height: 23px;
+    left: 20px;
+    top: 418px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.total-amount{
+    position: absolute;
+    width: 101px;
+    height: 26px;
+    left: 307px;
+    top: 416px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(180, 32, 28, 0.92);
+}
+
+/* -----------------------SHIPMENT SUMMARY STYLES ------------------- */
+.shipment-summary-div{
+    position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 362px;
+    top: 133px;
+    
+    background: #FFFFFF;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.shipment-summary-text{
+    position: absolute;
+    width: 197px;
+    height: 30px;
+    left: 20px;
+    top: 25px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */  
+    color: #000000;
+}
+
+.confirm-text{
+    position: absolute;
+    width: 250px;
+    height: 23px;
+    left: 20px;
+    top: 57px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+    
+}
+
+.shipment-from-text{
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 20px;
+    top: 108px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: rgba(180, 32, 28, 0.92);
+    
+}
+
+.shipment-to-text{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 298px;
+    top: 108px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: right;
+    color: #E38B2F;
+}
+
+.cargo-box-text{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 20px;
+    top: 150px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.shipment-weight-text{
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    left: 263px;
+    top: 150px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    
+    color: #000000;
+}
+
+.shipment-speed-text{
+    position: absolute;
+    width: 240px;
+    height: 27px;
+    left: 20px;
+    top: 188px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+.price-summary-text{
+    position: absolute;
+    width: 146px;
+    height: 25px;
+    left: 141px;
+    top: 239px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.shipment-location-text{
+    position: absolute;
+    width: 88px;
+    height: 23px;
+    left: 20px;
+    top: 285px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+    
+}
+
+.shipment-location-price{
+    position: absolute;
+    width: 76px;
+    height: 23px;
+    left: 332px;
+    top: 285px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(0, 0, 0, 0.82);
+}
+
+.shipment-weight{
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 20px;
+    top: 319px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.shipment-weight-amount{
+    position: absolute;
+    width: 92px;
+    height: 23px;
+    left: 320px;
+    top: 319px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(0, 0, 0, 0.82);
+    
+}
+
+.shipping-summary{
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 20px;
+    top: 353px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);    
+}
+
+.shipping-summary-amount{
+    position: absolute;
+    height: 23px;
+    left: 320px;
+    top: 353px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(0, 0, 0, 0.82);
+}
+
+.total-shipment-text{
+    position: absolute;
+    width: 53px;
+    height: 23px;
+    left: 20px;
+    top: 387px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.49);
+    
+}
+
+.total-shipment-amount{
+    position: absolute;
+    width: 101px;
+    height: 26px;
+    left: 307px;
+    top: 385px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: rgba(180, 32, 28, 0.92);
+}
+
+.make-payment-button{
+    position: absolute;
+    width: 152px;
+    height: 48px;
+    left: 138px;
+    top: 433px;
+    background: #B4201C;
+    color: #FFFFFF;
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.19));
+}
+
+/* ------------ Tracking.html styles ----------------------- */
+.tracking-div{
+    position: absolute;
+    width: 297px;
+    height: 48px;
+    left: 227px;
+    top: 131px;
+    
+    background: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.more-vertical{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 843px;
+    top: 40px;
+    }
+
+.tracking-number-text{
+    position: absolute;
+    width: 163px;
+    height: 22px;
+    left: 16px;
+    top: 13px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.42);
+    
+}
+
+.tracking-number-button{
+    position: absolute;
+    width: 87px;
+    height: 48px;
+    left: 526px;
+    top: 131px;
+    border:none;
+    background: #000000;
+    border-radius: 0px 8px 8px 0px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.status-text{
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    left: 340px;
+    top: 207px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    opacity: 0.8;
+}
+
+.status-img{
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 394px;
+    top: 208px;
+}
+
+.all-shipments-div{
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    left: 650px;
+    top: 131px; 
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.all-shipments-text{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 15px;
+    top: 15px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.47);
+}
+
+.div-line{
+    position: absolute;
+    width: 48px;
+    height: 0px;
+    left: 780px;
+    top: 153px;
+
+    border: 1px solid #C4C4C4;
+    transform: rotate(90deg)
+}
+
+.all-shipments-chevron{
+    position: absolute;
+    left: 172px;
+    right: 25%;
+    top: 15px;
+    bottom: 37.5%;
+    border: none;
+}
+
+.pick-date-div{
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    left: 896px;
+    top: 131px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.calendar-img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 14px;
+    top: 13px;
+}
+
+.pick-date-text{
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 53px;
+    top: 15px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.47);
+    
+}
+
+.div-line-2{
+    position: absolute;
+    width: 48px;
+    height: 0px;
+    left: 135px;
+    top: 22px;
+
+    border: 1px solid #C4C4C4;
+    transform: rotate(90deg);
+}
+
+.tracking-no{
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 531px;
+    top: 208px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    opacity: 0.8;
+}
+
+.tracking-img{
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 633px;
+    top: 209px;
+}
+
+.tracking-to{
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    left: 667px;
+    top: 207px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    opacity: 0.8;      
+}
+
+.tracking-to-img{
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 692px;
+    top: 208px;    
+}
+
+.tracking-from{
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    left: 727px;
+    top: 207px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    opacity: 0.8;
+}
+
+.tracking-from-img{
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 772px;
+    top: 208px;
+}
+
+.tracking-arrival{
+    position: absolute;
+    width: 58px;
+    height: 19px;
+    left: 822px;
+    top: 207px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    opacity: 0.8;
+}
+
+.tracking-arrival-img{
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 883px;
+    top: 208px;
+}
+
+.tracking-price{
+    position: absolute;
+    width: 40px;
+    height: 19px;
+    left: 964px;
+    top: 207px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    opacity: 0.8;
+}
+
+.tracking-price-img{
+    position: absolute;
+    width: 9px;
+    height: 16px;
+    left: 1009px;
+    top: 208px;
+}
+
+.arriving-div{
+    position: absolute;
+    width: 876px;
+    height: 100px;
+    left: 227px;
+    top: 236px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.arriving-home-img{
+    position: absolute;
+    width: 24px;
+    height: 32px;
+    left: 17px;
+    top: 34px;
+}
+
+.arriving-status{
+    position: absolute;
+    width: 113px;
+    height: 22px;
+    left: 61px;
+    top: 17px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-summary{
+    position: absolute;
+    width: 211px;
+    height: 19px;
+    left: 61px;
+    top: 37px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    opacity: 0.7;
+}
+
+.shipment-status-img{
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 61px;
+    top: 57px;
+}
+
+.arrival-no-detail{
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 319px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-to-detail{
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    left: 449px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-from-detail{
+    position: absolute;
+    width: 30px;
+    height: 22px;
+    left: 512px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.arrival-date-detail{
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 590px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.arrival-price-detail{
+    position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 733px;
+    top: 39px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.82);
+}
+
+.shipped-div{
+    position: absolute;
+    width: 876px;
+    height: 100px;
+    left: 227px;
+    top: 357px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.shipped-img{
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 61px;
+    top: 59px;
+    
+}
+
+.waiting-div{
+    position: absolute;
+    width: 876px;
+    height: 100px;
+    left: 227px;
+    top: 478px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* ------------------------------ SERVICES STYLE ------------------------ */
+
+.services{
+    position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 227px;
+    top: 132px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.calculate-price-div{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 227px;
+    top: 172px;
+    
+    background: rgba(180, 32, 28, 0.1);
+    border-radius: 8px;
+}
+
+.calculate-price{
+    position: absolute;
+
+    height: 19px;
+    left: 15px;
+    top: 19px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.calculator-img{
+    position: absolute;
+    left: 81.25%;
+    right: -56.25%;
+    top: 12.5%;
+    bottom: 25%;
+}
+
+.calculate-price-text-block{
+    position: absolute;
+    width: 215px;
+    height: 54px;
+    left: 15px;
+    top: 46px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.services-create-shipment{
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 486px;
+    top: 172px;
+    
+    background: rgba(227, 139, 47, 0.1);
+    border-radius: 8px;   
+}
